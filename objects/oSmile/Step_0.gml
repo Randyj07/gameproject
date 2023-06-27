@@ -38,5 +38,10 @@ y = y + vsp;
 // Lava collision
 if(place_meeting(x, y-30, oLava)) {
 	// Die
-	game_end(0)
+	// game_end(0);
+	
+	instance_destroy(id);
+	walksp = 0;
+	grv = 0;
+	oLava.rise_speed = 0;
 }
