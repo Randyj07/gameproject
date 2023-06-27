@@ -18,8 +18,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"oPlayButton","order":3,"path":"objects/oPlayButton/oPlayButton.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"oLava","order":2,"path":"objects/oLava/oLava.yy",},
+    {"name":"sPlayButton","order":4,"path":"sprites/sPlayButton/sPlayButton.yy",},
+    {"name":"StartRoom","order":1,"path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"sLavaBottom","order":3,"path":"sprites/sLavaBottom/sLavaBottom.yy",},
     {"name":"sLavaTop","order":2,"path":"sprites/sLavaTop/sLavaTop.yy",},
   ],

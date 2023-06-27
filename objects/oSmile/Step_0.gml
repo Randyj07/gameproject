@@ -1,9 +1,9 @@
 // This code executes every frame
 
 // Get player input
-is_left_key_pressed = keyboard_check(vk_left);
-is_right_key_pressed = keyboard_check(vk_right);
-is_jump_key_pressed = keyboard_check(vk_space);
+is_left_key_pressed = keyboard_check(vk_left) or keyboard_check(ord("A"));
+is_right_key_pressed = keyboard_check(vk_right) or keyboard_check(ord("D"));
+is_jump_key_pressed = keyboard_check(vk_up) or keyboard_check(vk_space);
 
 // Calculate movement
 var move = is_right_key_pressed - is_left_key_pressed;
@@ -36,7 +36,7 @@ if(place_meeting(x, y+vsp, oWall)) {
 y = y + vsp;
 
 // Lava collision
-if(place_meeting(x, y-5, oLava)) {
+if(place_meeting(x, y-30, oLava)) {
 	// Die
 	game_end(0)
 }

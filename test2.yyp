@@ -35,15 +35,19 @@
   },
   "resources": [
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"oPlayButton","path":"objects/oPlayButton/oPlayButton.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sSmile","path":"sprites/sSmile/sSmile.yy",},},
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
+    {"id":{"name":"sPlayButton","path":"sprites/sPlayButton/sPlayButton.yy",},},
+    {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"sLavaBottom","path":"sprites/sLavaBottom/sLavaBottom.yy",},},
     {"id":{"name":"oSmile","path":"objects/oSmile/oSmile.yy",},},
     {"id":{"name":"sLavaTop","path":"sprites/sLavaTop/sLavaTop.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [
