@@ -1,11 +1,19 @@
+// This code executes every frame
+
 // Get player input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check(vk_space);
+is_left_key_pressed = keyboard_check(vk_left);
+is_right_key_pressed = keyboard_check(vk_right);
+is_jump_key_pressed = keyboard_check(vk_space);
 
 // Calculate movement
-var move = key_right - key_left;
+var move = is_right_key_pressed - is_left_key_pressed;
 hsp = move * walksp;
+vsp = vsp + grv;
+
+// Jumping
+if(is_jump_key_pressed && place_meeting(x, y+1, oWall)) {
+	vsp = jumpsp;
+}
 
 // Horizontal collision
 if(place_meeting(x+hsp, y, oWall)) {
@@ -15,5 +23,14 @@ if(place_meeting(x+hsp, y, oWall)) {
 	
 	hsp = 0;
 }
-
 x = x + hsp;
+
+// Vertical collision
+if(place_meeting(x, y+vsp, oWall)) {
+	while(!place_meeting(x, y+sign(vsp), oWall)) {
+		y = y + sign(vsp)
+	}
+	
+	vsp = 0;
+}
+y = y + vsp;
