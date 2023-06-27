@@ -3,7 +3,7 @@
 // Get player input
 is_left_key_pressed = keyboard_check(vk_left) or keyboard_check(ord("A"));
 is_right_key_pressed = keyboard_check(vk_right) or keyboard_check(ord("D"));
-is_jump_key_pressed = keyboard_check(vk_up) or keyboard_check(vk_space);
+is_jump_key_pressed = keyboard_check(vk_up) or keyboard_check(vk_space) or keyboard_check(ord("W"));
 
 // Calculate movement
 var move = is_right_key_pressed - is_left_key_pressed;
