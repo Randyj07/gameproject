@@ -26,6 +26,7 @@
     {"name":"oFinish","order":4,"path":"objects/oFinish/oFinish.yy",},
     {"name":"StartRoom","order":1,"path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"sLavaBottom","order":3,"path":"sprites/sLavaBottom/sLavaBottom.yy",},
+    {"name":"oLavaBottom","order":5,"path":"objects/oLavaBottom/oLavaBottom.yy",},
     {"name":"sLavaTop","order":2,"path":"sprites/sLavaTop/sLavaTop.yy",},
     {"name":"sFinish","order":5,"path":"sprites/sFinish/sFinish.yy",},
   ],

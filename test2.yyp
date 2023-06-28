@@ -45,6 +45,7 @@
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"id":{"name":"sLavaBottom","path":"sprites/sLavaBottom/sLavaBottom.yy",},},
     {"id":{"name":"oSmile","path":"objects/oSmile/oSmile.yy",},},
+    {"id":{"name":"oLavaBottom","path":"objects/oLavaBottom/oLavaBottom.yy",},},
     {"id":{"name":"sLavaTop","path":"sprites/sLavaTop/sLavaTop.yy",},},
     {"id":{"name":"sFinish","path":"sprites/sFinish/sFinish.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

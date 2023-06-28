@@ -1,0 +1,1 @@
+y = y - oLava.rise_speed;

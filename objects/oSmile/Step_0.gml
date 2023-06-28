@@ -48,4 +48,5 @@ if(place_meeting(x, y-30, oLava)) {
 	walksp = 0;
 	grv = 0;
 	oLava.rise_speed = 0;
+	oLavaBottom.rise_speed = 0;
 }
