@@ -6,7 +6,7 @@ var center_screen_x = view_w/2 - sPlayButton.sprite_width/2;
 var center_screen_y = view_y + view_h/2 - sPlayButton.sprite_height/2;
 var y_offset = -100;
 
-var test = instance_create_depth(
+instance_create_depth(
 	center_screen_x,
 	center_screen_y + y_offset,
 	-200,
